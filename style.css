@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Vinyl', cursive;
+    color: var(--color-font);
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+html {
+    --color-font: #000000;
+    --color-all: #ffffff;
+    --color-robots: #cbcbcb;
+    --color-button: #0d0d0d;
+    --color-font-button: #e4e4e4;
+}
+
+.dark {
+    --color-font: #ffffff;
+    --color-all: #000000;
+    --color-robots: #1b1b1b;
+    --color-button: #eeeeee;
+    --color-font-button: #000000;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-all);
+    
+    
+}
+
+.robot {
+    width: 250px;
+    
+}
+
+.section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    gap: 5px;
+    background-color: var(--color-robots);
+    border-radius: 15px;
+    width: 75%;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    padding: 3px 20px;
+    background-color: var(--color-button);
+    color: var(--color-font-button);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
